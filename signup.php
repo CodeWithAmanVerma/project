@@ -117,7 +117,7 @@
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="remember-me">
                                     <label class="form-check-label" for="remember-me">
-                                        I agree to the <a href="#">terms and conditions</a>
+                                        I agree to the <a href="terms-and-conditions.php">terms and conditions</a>
                                     </label>
                                 </div>
                             </div>
