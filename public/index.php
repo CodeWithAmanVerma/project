@@ -45,5 +45,9 @@
     require APP_PATH . '/request.php';
     require APP_PATH . '/dispatcher.php';
     
-    $dispatch = new Dispatcher();
-    $dispatch->dispatch();
+    try {
+        $dispatch = new Dispatcher();
+        $dispatch->dispatch();
+    } catch (\Exception $e) {
+        echo $e->getMessage();
+    }

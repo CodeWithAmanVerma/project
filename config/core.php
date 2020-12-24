@@ -24,3 +24,10 @@
      * The fundamental controller class that can be extended for further use.
      */
     require APP_PATH. "/app/Core/Controller.php";
+
+    /**
+     * CONTROLLER - Configuration
+     * 
+     * The fundamental controller class that can be extended for further use.
+     */
+    require APP_PATH. "/app/Core/Helper.php";
